@@ -45,6 +45,13 @@ export default class BGMgr extends BasePanel {
     public showPanel(event,customData){
         UIManager.Instance(UIManager).pushPanel(customData);
     }
+    
+        /**
+     * 隐藏面板
+     */
+    public closePanel(): void {
+        UIManager.Instance(UIManager).popPanel();
+    }
 
 
 }
