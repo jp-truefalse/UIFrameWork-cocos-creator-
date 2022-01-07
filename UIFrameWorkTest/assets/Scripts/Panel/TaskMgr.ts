@@ -41,8 +41,7 @@ export default class TaskMgr extends BasePanel {
      * 隐藏面板
      */
     public closePanel(): void {
-        let basePanel = new BasePanel();
-        basePanel.closePanel();
+        UIManager.Instance(UIManager).popPanel();
     }
 
 }
