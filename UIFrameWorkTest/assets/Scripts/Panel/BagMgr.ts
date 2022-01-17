@@ -40,8 +40,8 @@ export default class BagMgr extends BasePanel {
     /**
      * 隐藏面板
      */
-    public closePanel() {
-        UIManager.Instance(UIManager).popPanel();
+    public closePanel(): void {
+       super.closePanel();
     }
 
     // update (dt) {}
