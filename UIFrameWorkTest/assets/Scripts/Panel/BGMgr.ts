@@ -50,7 +50,7 @@ export default class BGMgr extends BasePanel {
      * 隐藏面板
      */
     public closePanel(): void {
-        UIManager.Instance(UIManager).popPanel();
+       super.closePanel();
     }
 
 
