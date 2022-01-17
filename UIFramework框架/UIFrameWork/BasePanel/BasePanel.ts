@@ -26,7 +26,9 @@ export default abstract class BasePanel extends cc.Component {
    /**
     * 隐藏面板
     */
-   public abstract closePanel();
+   public closePanel(){
+      UIManager.Instance(UIManager).popPanel();
+   }
 
 }
 
