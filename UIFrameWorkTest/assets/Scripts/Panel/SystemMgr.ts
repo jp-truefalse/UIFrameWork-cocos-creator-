@@ -39,7 +39,7 @@ export default class SystemMgr extends BasePanel {
     /**
      * 隐藏面板
      */
-    public closePanel(){
-        UIManager.Instance(UIManager).popPanel();
+    public closePanel(): void {
+       super.closePanel();
     }
 }
