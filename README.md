@@ -1,3 +1,3 @@
 # UIFrameWork-cocos-creator
-cocos creator UI框架（ts）
+cocos creator 2.4.6 UI框架（ts）
 
